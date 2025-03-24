@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists, Images, Tables & Forms</title>
+</head>
+<body>
+  <!-- Ordered List Section -->
+  <section>
+      <h6>List of Records</h6>
+      <ol type="I">
+        <li>Record one</li>
+        <li>Record two</li>
+        <li>Record three</li>
+      </ol>
+  </section>
+
+  <!-- Image Section -->
+  <section>
+    <h6>Image Section</h6>
+    <img src="https://render.fineartamerica.com/images/rendered/wall-view/medium/room002/canvas-print/images/artworkimages/medium/1/afternoon-aspen-grove-gary-kim.jpg?printWidth=12&printHeight=6" alt="Afternoon Aspen Grove by Gary Kim" />
+  </section>
+
+  <!-- Table Section -->
+  <section>
+    <h6>Table Section</h6>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Joshua</td>
+          <td>Chuka</td>
+          <td>0712345678</td>
+          <td>myemail@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Joshua</td>
+          <td>Chuka</td>
+          <td>0712345678</td>
+          <td>myemail@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Joshua</td>
+          <td>Chuka</td>
+          <td>0712345678</td>
+          <td>myemail@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Joshua</td>
+          <td>Chuka</td>
+          <td>0712345678</td>
+          <td>myemail@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Joshua</td>
+          <td>Chuka</td>
+          <td>0712345678</td>
+          <td>myemail@gmail.com</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <!-- Form Section -->
+  <section>
+    <h6>Form Section</h6>
+    <form action="" method="">
+      <fieldset>
+          <label for="full_name">Enter your name</label>
+          <input type="text" name="full_name" id="full_name" required placeholder="Your full name">
+      </fieldset>
+      <fieldset>
+          <label for="Email">Enter your Email</label>
+          <input type="email" name="Email" id="Email" required placeholder="Your Email">
+      </fieldset>
+      <fieldset>
+          <label for="password">Enter your Password</label>
+          <input type="password" name="password" id="password" required>
+      </fieldset>
+      <fieldset>
+          <label for="date">Enter Date of Birth</label>
+          <input type="date" name="date" id="date" required>
+      </fieldset>
+      <fieldset>
+          <label for="country">Select your Country</label>
+          <select name="country" id="country">
+              <option value="kenya">Kenya</option>
+              <option value="nigeria">Nigeria</option>
+          </select>
+      </fieldset>
+      <fieldset>
+          <label for="gender">Enter Gender</label>
+          <div>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+          </div>
+      </fieldset>
+      <fieldset>
+          <label for="languages">Enter Your Languages</label>
+          <div>
+            <input type="checkbox" name="languages" value="English">English
+            <input type="checkbox" name="languages" value="Kiswahili">Kiswahili
+          </div>
+      </fieldset>
+      <button type="submit">Submit the Form</button>
+      <button type="reset">Cancel</button>
+    </form>
+  </section>
+
+  <!-- Multimedia Section -->
+  <section>
+    <h6>Multimedia</h6>
+    <audio controls loop>
+      <source src="audio.mp3" type="audio/mpeg">
+      <source src="audio.ogg" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+    <video width="320" height="240" controls loop autoplay>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+</body>
+</html>
